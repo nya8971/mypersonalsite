@@ -1,0 +1,154 @@
+div {
+  background-color: #f1d4d4;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: 'Rochester', cursive;
+  font-size: 5.625rem;
+  color: #790c5a;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #790c5a;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #cc0e74;
+}
+
+p {
+  line-height: 2;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 8px;
+  border-color: grey;
+  width: 5%;
+  margin: 40px auto;
+}
+
+.contact-me-button {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 12px 20px;
+   background-color: #CC0E74;
+   text-shadow: 1px 1px 9px #000000;
+   border: solid #CC0E74 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 30px;
+}
+
+.contact-me-button:hover {
+   background: #E6739F;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.top_container>h2 {
+  font-weight: normal;
+}
+
+.top_container {
+  background-color: #e6739f;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  padding: 50px 0;
+}
+
+.bottom-container>a {
+  color: #cc0e74;
+  margin: 10px 20px;
+  position: static;
+  text-decoration: none;
+
+}
+.bottom-container>a:hover {
+  color: #E6739F;
+}
+.bottom-container {
+  background-color: #790c5a;
+  padding: 50px 0 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-me {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.shopping-gif {
+  width: 300px;
+}
+
+.shopping-gif, .playlist-gif {
+  background-color: #cc0e74;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile {
+  padding-top: 10px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.code-gif, .binge-gif {
+  background-color: rgb(205, 118, 144);
+  height: 300px;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-headshot, .code-gif, .binge-gif, .shopping-gif, .playlist-gif {
+  border-radius: 50%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.copyright{
+  color: #E6739F;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
