@@ -135,6 +135,10 @@ hr {
   border-radius: 50%;
 }
 
+.profile-headshot{
+  width: 50%;
+}
+
 .bottom-cloud {
   position: absolute;
   bottom: 300px;
